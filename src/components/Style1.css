@@ -1,7 +1,21 @@
+.schild{
+  font-size: 25px;
+  background-color: #f5ccff;
+  padding: 2px;
+  color: #660066;
+}
 .child {
   text-align: center;
   display: inline;
+  font-family: sans-serif;
+  background-color:purple;
+  color: white;
+  padding: 4px;
   }
+
+.child:hover{
+  font-size: 20px;
+}
 
 .bar {
     display: flex;
@@ -9,12 +23,21 @@
     align-items: center;
     width: 100%;
     background-color: mediumpurple;
-    padding-top: 5px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    padding-right:4px;
+    padding: 4px;
 }
 
 .center {
  text-align: center;
+}
+p {
+ text-indent: 4%;
+ margin-left: 2%;
+ margin-right: 2%;
+}
+
+.link1{
+  color: #fff0b3;
+}
+.link1:hover{
+  color: #ffcc00;
 }

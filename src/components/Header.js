@@ -16,13 +16,17 @@ class Header extends Component {
     render() {
       return(
       <div className="bar">
-        <div className="child">Sage Michaels Official Website</div>
+        <div className= "schild">Sage Michaels' Official Website</div>
         <div className="child">
-          <Link to='/CompSci'>Computer Science</Link>
+          <Link className="link1" to='/CompSci'>Computer Science</Link>
         </div>
         <div className="child">
-          <Link to='/Sleep'>Sleep</Link>
+          <Link className="link1"  to='/Sleep'>Sleep</Link>
         </div>
+        <div className="child">
+          <Link className="link1"  to='/Video'>Video Art</Link>
+        </div>
+        <div></div>
       </div>
       );
     }

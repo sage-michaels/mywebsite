@@ -2,7 +2,7 @@ import React from 'react';
 const Sleep = () => (
   <div style={{marginTop: "20px"}}>
     <h1>Sage Michaels Sleep Related Works</h1>
-    <p> It was the spring of 2017 and all I had was a dream: become the first ever professional sleeper. In persuit of this dream I sent 
+    <p>It was the spring of 2017 and all I had was a dream: become the first ever professional sleeper. In persuit of this dream I sent 
     <a className="smallLink" href="../../images/SleepResume.pdf"> my sleep resume </a>
    to Tempur-Pedic's customer support email. I was surprised when only a few days later I was told that my resume had been sent to TempurPedic's marketing department. Excited by this news, I made a video of friends and family testifying to how incredible I am at sleeping.
   </p>
