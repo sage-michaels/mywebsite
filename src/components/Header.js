@@ -16,7 +16,9 @@ class Header extends Component {
     render() {
       return(
       <div className="bar">
-        <div className= "schild">Sage Michaels' Official Website</div>
+        <div className= "schild">
+          <Link to='/'> Sage Michaels' Official Website</Link>
+        </div> 
         <div className="child">
           <Link className="link1" to='/CompSci'>Computer Science</Link>
         </div>
