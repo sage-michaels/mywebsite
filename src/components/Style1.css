@@ -1,15 +1,13 @@
 .schild{
   font-size: 25px;
-  background-color: #f5ccff;
   padding: 2px;
   color: #660066;
 }
 .child {
   text-align: center;
   display: inline;
+  background-color: #ce99ff;
   font-family: sans-serif;
-  background-color:purple;
-  color: white;
   padding: 4px;
   }
 
@@ -22,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: mediumpurple;
+    background-color:#e6ccff;
     padding: 4px;
 }
 
@@ -36,8 +34,19 @@ p {
 }
 
 .link1{
-  color: #fff0b3;
+  color: #660066;
 }
 .link1:hover{
-  color: #ffcc00;
+  text-size: +1;
+}
+
+.link2{
+  border-color: #ff000054;
+  border-width: 2px;
+  font-size: 15px;
+  background-color: #f3c0ff;
+  margin-right: 10px;
+}
+*{
+ font-family: Sans-Serif;
 }

@@ -6,6 +6,7 @@ import Video from '../components/Video';
 
 const Main = () => (
   <main>
+  <div id="fb-root"></div>
     <Switch>
       <Route exact path='/compsci' component={CompSci} />
       <Route path='/sleep' component={Sleep} />

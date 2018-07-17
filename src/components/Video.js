@@ -11,7 +11,7 @@ const Video = () => (
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wYuWCl3Bweg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
   
-    <h1> TempurPedic Dream Odyssy: Fall 2017</h1>
+    <h4> TempurPedic Dream Odyssy: Fall 2017</h4>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pwoqk_JD6Kc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
@@ -25,6 +25,9 @@ const Video = () => (
 
   <h4> Repetative Beauty (Video Reel): January 2017</h4> 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/OO4pPqoqM9o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+  <h4> Squeeze With Ease: Fall 2016 </h4> 
+  <iframe width="560" height="315" src="http://www.facebook.com/video/embed?video_id=10210525447075012" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
   <h4> Cigarette Receptacle: Spring 2016 </h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6k7_pVGkdiE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
