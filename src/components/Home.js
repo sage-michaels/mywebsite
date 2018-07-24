@@ -13,6 +13,10 @@ const Home = () => (
     </div>
  
   <h2>It's nice to have you here. Please explore the links above to learn more about Sage Michaels.</h2>
+  <h3> This website was made in about a week as a way to learn React.</h3>
+  <h3> Checkout this website's code  
+  <a className="smallLink" href="https://github.com/sage-michaels/mywebsite"> here</a> 
+  .</h3>
   </div>
   </div>
 );

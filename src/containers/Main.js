@@ -4,7 +4,7 @@ import CompSci from '../components/CompSci';
 import Sleep from '../components/Sleep';
 import Video from '../components/Video';
 import Home from '../components/Home';
-
+//Main segement is one of 4 possible pages
 const Main = () => (
   <main>
   <div id="fb-root"></div>

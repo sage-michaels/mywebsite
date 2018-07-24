@@ -1,6 +1,7 @@
 import React from 'react';
 const CompSci = () => (
   <div style={{marginTop: "20px"}}>
+    <h1> Computer Science Interests and Background </h1>
     <p> As an undergrad I was mostly interested in theoretical math and computer science. My favorite classes were computability and complexity theory, algorithms and data structures, and cryptography. I wrote my senior thesis on 
     <a className="smallLink" href="https://github.com/sage-michaels/thesis/blob/master/thesis.pdf"> circuit obfuscation and functional encryption. </a>
     Now I am interested in getting more expirience with software development.
