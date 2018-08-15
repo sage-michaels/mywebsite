@@ -1,12 +1,6 @@
-.schild{
-  font-size: 25px;
-  padding: 2px;
-  color: #660066;
-}
 .child {
   text-align: center;
   display: inline;
-  background-color: #ce99ff;
   font-family: sans-serif;
   padding: 4px;
   }
@@ -16,25 +10,99 @@
 }
 
 .bar {
+    margin-left: -20px;
+    margin-top: -1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color:#e6ccff;
+    background-color:#ADA846;
     padding: 4px;
+    position: fixed;
+    z-index: +1;
 }
 
-.center {
- text-align: center;
+.about{
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #F8E1BA;
+  color: #334E55;
+
 }
+
+.backdrop{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+
+.modal{
+  margin-left: auto;
+  margin-top: auto;
+
+}
+.container{
+  position:relative;
+  text-align: center;
+  color: white;
+}
+
+.textbox{
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: rgba(0,0,0,.2);
+}
+.center{
+  text-align: center;
+  color: #CFE5F4;
+}
+
+.centered{
+  text-align:center;
+}
+.top-center{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+
+}
+
+.centermodal{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.center-left{
+    position: absolute;
+    top: 50%;
+    left:5%;
+    width: 30%;
+}
+
+.pic{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
 p {
  text-indent: 4%;
  margin-left: 2%;
  margin-right: 2%;
 }
 
+.homelink{
+  color: #334E55;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .link1{
-  color: #660066;
+  color: #334E55;
+  text-decoration: none;
 }
 .link1:hover{
   text-size: +1;
@@ -47,6 +115,97 @@ p {
   background-color: #f3c0ff;
   margin-right: 10px;
 }
+.bghome { 
+     /* The image used */
+    background-image: url(../images/sage.jpg);
+
+    /* Full height */
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgcomp {
+   /* The image used */
+    background-image: url(../images/computer.jpg);
+
+    /* Full height */
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgslp {
+   /* The image used */
+    background-image: url(../images/cloud.jpg);
+
+    /* Full height */
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: scroll;
+
+}
+.screen{
+    position: absolute;
+    width: 47%;
+    height: 45%;
+    left: 25%;
+    top: 25%;
+    overflow: scroll;
+    color:#00ff00;
+}
+
+.terminal{
+  font-family: Courier;
+  color:#00ff00;
+}
+
+.brdclr{
+  height: 100%;
+  width: 100%;
+  opacity: .6;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 28.125%; /* 16:9 */
+  padding-top: 12.25px;*/
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+}
+
+.dream {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 4%;
+  color: #002699;
+}
+
+
 *{
  font-family: Sans-Serif;
 }
